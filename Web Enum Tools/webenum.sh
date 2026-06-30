@@ -1,3 +1,14 @@
+#To automate Web reconnaissance
+
+#[Root Domain] ➔ (Subdomain Enumeration) ➔ (Live Host Probing) ➔(Detect subdomain takeover) ➔(port scanning)➔ (Extract Internet archives old URLs) ➔ (Visual Screenshots)
+
+#assetfinder - https://github.com/tomnomnom/assetfinder
+#amass - https://github.com/OWASP/Amass
+#httprobe - https://github.com/tomnomnom/httprobe
+#nmap - https://nmap.org/download.html
+#waybackurls - https://github.com/tomnomnom/waybackurls
+#eyewitness - https://github.com/FortyNorthSecurity/EyeWitness
+
 #!/bin/bash	
 url=$1
 if [ ! -d "$url" ];then
